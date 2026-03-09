@@ -1,15 +1,16 @@
+
 🖨️ Company Printers Management System
 📌 Overview
-Company Printers is a modern web application migrated from legacy ASP.NET WebForms to Angular 18+. It provides a sleek, reactive interface for managing office hardware, user accounts, and job designations.
+Company Printers is a modern web application migrated from legacy ASP.NET WebForms to Angular 18+. It provides a sleek, reactive interface for managing office hardware, user accounts, and job designations within an organization.
 
 🚀 Technologies
-Frontend: Angular 18+ (Standalone Components)
+Frontend: Angular 18+ (Standalone Components & Signals)
 
 Styling: Angular Material & Bootstrap 5
 
 Backend: ASP.NET Core Web API (C#)
 
-Data: SQL Server using Dapper / ADO.NET
+Data Access: SQL Server using Dapper / ADO.NET
 
 Deployment: Vercel (Frontend)
 
@@ -18,27 +19,27 @@ Printer Control: Full CRUD (Create, Read, Update, Delete) for hardware tracking.
 
 User Management: Administer user profiles and system access.
 
-Role-Based Designations: Assign and manage employee levels and titles.
+Role-Based Designations: Manage employee levels and system permissions.
 
 Modern UI:
 
-Data Tables: Advanced sorting, filtering, and pagination.
+Data Tables: Advanced sorting, filtering, and pagination using Material Data Tables.
 
-Reactive Forms: Real-time validation and smooth submission.
+Reactive Forms: Real-time validation for adding and editing data.
 
-Live Feedback: Instant notifications for success or error states.
+Live Feedback: Instant notifications for success, error, or confirmation states.
 
-Responsive: Fully optimized for desktop, tablet, and mobile screens.
+Responsive Layout: Fully optimized for desktop, tablet, and mobile screens.
 
 🛠 Project Structure
 Plaintext
 ├── src/
-│   ├── app/           # Components, Services, and Logic
-│   ├── assets/        # Images, Icons, and Global Resources
-│   ├── styles.css     # Main Stylesheet (Material + Bootstrap)
-├── public/            # Static assets (Favicons, etc.)
-├── angular.json       # Angular CLI Configuration
-└── package.json       # Project Dependencies
+│   ├── app/           # Standalone Components, Services, and Interfaces
+│   ├── assets/        # Global Resources (Icons, etc.)
+│   ├── styles.css     # Main Stylesheet (Material + Bootstrap integration)
+├── public/            # Static assets and screenshots
+├── angular.json       # Angular CLI Workspace Configuration
+└── package.json       # Project Scripts and Dependencies
 💻 Getting Started
 Prerequisites
 Node.js: v18 or higher
@@ -46,30 +47,30 @@ Node.js: v18 or higher
 Angular CLI: Installed globally (npm install -g @angular/cli)
 
 Installation & Run
-Clone the Repo
+Clone the Repository
 
 Bash
 git clone https://github.com/Xcallibre/Company_Printers.git
-Install Packages
+Install Dependencies
 
 Bash
 npm install
-Launch App
+Launch Local Server
 
 Bash
 ng serve
-Visit: http://localhost:4200/
+Open: http://localhost:4200/
 
 🖥 System Interface
-📊 Dashboards
-Printers: src/assets/screenshots/Printers-dashboard.png
+📊 Application Dashboards
+Printers Dashboard: public/screenshots/Printers-dashboard.png
 
-Users: src/assets/screenshots/Users-dashboard.png
+Users Dashboard: public/screenshots/Users-dashboard.png
 
-Modals: src/assets/screenshots/add-printer-modal.png
+Management Modals: public/screenshots/add-printer-modal.png
 
 👨‍💻 Author
 Mzwandile Byron Mngadi
 Advanced Diploma in ICT
 
-A quick tip for your GitHub:
+💡 Quick Tip for GitHub
